@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: "poppins";
+    src: url("img/font/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face{
+    font-family: "big john";
+    src: url("img/font/Big\ John/BigJohn 400.otf");
+}
+
+body{
+    margin: 0;
+    font-family: "poppins";
+    background-image: url(img/joshua.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1{
+    font-family: "big john";
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.countdown-container{
+    display: flex;
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-type{
+    text-align: center;
+}
+
+.countdown-type span{
+    font-size: 1.3rem;
+}
